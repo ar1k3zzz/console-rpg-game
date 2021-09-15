@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h
+iostream
+-
+string
+-
+iomanip
+-
+ctime
+-
+
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Game.cpp
+../Header Files/Game.h
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h
+
