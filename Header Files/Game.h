@@ -1,9 +1,8 @@
 #ifndef CONSOLE_RPG_GAME_GAME_H
 #define CONSOLE_RPG_GAME_GAME_H
 
-#include <iostream>
-#include <string>
-#include <iomanip>
+#include "../Source Files/Functions.h"
+#include "Character.h"
 #include <ctime>
 
 using namespace std;
@@ -17,7 +16,9 @@ public:
 
     //Functions
 
+    void initGame();
     void mainMenu();
+    void travelMenu();
     void endGame();
 
     //Accessors
@@ -30,6 +31,7 @@ public:
 private:
     int choice;
     bool playing;
+    Character character;
 };
 
 

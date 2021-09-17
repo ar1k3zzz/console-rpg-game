@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Character.h">
+			<Option target="console-rpg-game"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h">
+			<Option target="console-rpg-game"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Character.cpp">
 			<Option target="console-rpg-game"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Functions.h">

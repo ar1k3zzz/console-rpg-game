@@ -129,6 +129,30 @@ console-rpg-game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/build
 .PHONY : console-rpg-game/fast
 
+Source_Files/Character.o: Source_Files/Character.cpp.o
+.PHONY : Source_Files/Character.o
+
+# target to build an object file
+Source_Files/Character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o
+.PHONY : Source_Files/Character.cpp.o
+
+Source_Files/Character.i: Source_Files/Character.cpp.i
+.PHONY : Source_Files/Character.i
+
+# target to preprocess a source file
+Source_Files/Character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.i
+.PHONY : Source_Files/Character.cpp.i
+
+Source_Files/Character.s: Source_Files/Character.cpp.s
+.PHONY : Source_Files/Character.s
+
+# target to generate assembly for a file
+Source_Files/Character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.s
+.PHONY : Source_Files/Character.cpp.s
+
 Source_Files/Game.o: Source_Files/Game.cpp.o
 .PHONY : Source_Files/Game.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... console-rpg-game"
+	@echo "... Source_Files/Character.o"
+	@echo "... Source_Files/Character.i"
+	@echo "... Source_Files/Character.s"
 	@echo "... Source_Files/Game.o"
 	@echo "... Source_Files/Game.i"
 	@echo "... Source_Files/Game.s"

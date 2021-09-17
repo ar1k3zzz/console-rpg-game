@@ -6,17 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h
-iostream
--
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Character.h
 string
+-
+iostream
 -
 iomanip
 -
+
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h
+../Source Files/Functions.h
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Functions.h
+Character.h
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Character.h
 ctime
 -
 
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Character.cpp
+../Header Files/Character.h
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Character.h
+cmath
+-
+
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Functions.h
+
 /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Game.cpp
+../Header Files/Game.h
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h
+
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/main.cpp
+Functions.h
+/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Functions.h
 ../Header Files/Game.h
 /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h
 
