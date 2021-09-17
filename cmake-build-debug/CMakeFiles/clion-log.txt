@@ -1,4 +1,4 @@
-C:\Users\Arikezz\AppData\Local\JetBrains\CLion2021.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/yersajyn/CLionProjects/console-rpg-game
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug
+-- Build files have been written to: /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug

@@ -4,6 +4,7 @@
 #include <string>
 #include <iostream>
 #include <iomanip>
+#include "Item.h"
 
 class Character {
 public:
@@ -41,6 +42,7 @@ private:
     int hp;
     int hpMax;
     int atk;
+    Item item;
 };
 
 

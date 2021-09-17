@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Character.cpp" "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o"
-  "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Game.cpp" "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o"
-  "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/main.cpp" "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o"
+  "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Character.cpp" "/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o"
+  "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Game.cpp" "/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o"
+  "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Item.cpp" "/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o"
+  "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/main.cpp" "/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

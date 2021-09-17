@@ -3,14 +3,20 @@
 
 CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o: \
  ../Header\ Files/Character.h \
+ ../Header\ Files/Item.h \
  ../Source\ Files/Character.cpp
 CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o: \
  ../Header\ Files/Character.h \
  ../Header\ Files/Game.h \
+ ../Header\ Files/Item.h \
  ../Source\ Files/Functions.h \
  ../Source\ Files/Game.cpp
+CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o: \
+ ../Header\ Files/Item.h \
+ ../Source\ Files/Item.cpp
 CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o: \
  ../Header\ Files/Character.h \
  ../Header\ Files/Game.h \
+ ../Header\ Files/Item.h \
  ../Source\ Files/Functions.h \
  ../Source\ Files/main.cpp

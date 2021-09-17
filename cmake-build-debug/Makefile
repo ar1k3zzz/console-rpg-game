@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Arikezz/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Arikezz/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game
+CMAKE_SOURCE_DIR = /Users/yersajyn/CLionProjects/console-rpg-game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmak
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/Arikezz/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/Arikezz/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,30 @@ Source_Files/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.s
 .PHONY : Source_Files/Game.cpp.s
 
+Source_Files/Item.o: Source_Files/Item.cpp.o
+.PHONY : Source_Files/Item.o
+
+# target to build an object file
+Source_Files/Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o
+.PHONY : Source_Files/Item.cpp.o
+
+Source_Files/Item.i: Source_Files/Item.cpp.i
+.PHONY : Source_Files/Item.i
+
+# target to preprocess a source file
+Source_Files/Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.i
+.PHONY : Source_Files/Item.cpp.i
+
+Source_Files/Item.s: Source_Files/Item.cpp.s
+.PHONY : Source_Files/Item.s
+
+# target to generate assembly for a file
+Source_Files/Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.s
+.PHONY : Source_Files/Item.cpp.s
+
 Source_Files/main.o: Source_Files/main.cpp.o
 .PHONY : Source_Files/main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... Source_Files/Game.o"
 	@echo "... Source_Files/Game.i"
 	@echo "... Source_Files/Game.s"
+	@echo "... Source_Files/Item.o"
+	@echo "... Source_Files/Item.i"
+	@echo "... Source_Files/Item.s"
 	@echo "... Source_Files/main.o"
 	@echo "... Source_Files/main.i"
 	@echo "... Source_Files/main.s"

@@ -6,37 +6,49 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Character.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Character.h
 string
 -
 iostream
 -
 iomanip
 -
+Item.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Item.h
 
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Game.h
 ../Source Files/Functions.h
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Functions.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Functions.h
 Character.h
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Character.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Character.h
 ctime
 -
 
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Character.cpp
+/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Item.h
+string
+-
+iostream
+-
+
+/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Character.cpp
 ../Header Files/Character.h
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Character.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Character.h
 cmath
 -
 
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Functions.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Functions.h
 
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Game.cpp
+/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Game.cpp
 ../Header Files/Game.h
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Game.h
 
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/main.cpp
+/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Item.cpp
+../Header Files/Item.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Item.h
+
+/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/main.cpp
 Functions.h
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Functions.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Functions.h
 ../Header Files/Game.h
-/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h
+/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Game.h
 

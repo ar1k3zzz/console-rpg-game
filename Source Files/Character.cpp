@@ -65,6 +65,8 @@ std::string Character::getAsString() const {
     std::cout << "Exp: " << this->exp << "/" << this->expNext << std::endl;
     std::cout << "HP: " << this->hp << "/" << this->hpMax << std::endl;
     std::cout << "Attack: " << this->atk << std::endl;
+    std::cout << "Inventory: ";
+    item.showAllItems();
     std::cout << std::setw(10) << std::setfill('=') << std::endl;
     std::cout << std::endl;
 }

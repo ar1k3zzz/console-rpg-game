@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/console_rpg_game.dir/main.cpp.o -o console_rpg_game.exe -Wl,--out-implib,libconsole_rpg_game.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

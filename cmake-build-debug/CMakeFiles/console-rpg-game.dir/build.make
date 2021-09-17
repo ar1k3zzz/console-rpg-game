@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Arikezz/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Arikezz/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game
+CMAKE_SOURCE_DIR = /Users/yersajyn/CLionProjects/console-rpg-game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/console-rpg-game.dir/depend.make
@@ -68,62 +68,77 @@ include CMakeFiles/console-rpg-game.dir/flags.make
 
 CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o: CMakeFiles/console-rpg-game.dir/flags.make
 CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o: ../Source\ Files/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o -c "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o -c "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/main.cpp"
 
 CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/main.cpp" > CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/main.cpp" > CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.i
 
 CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/main.cpp" -o CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/main.cpp" -o CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.s
 
 CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o: CMakeFiles/console-rpg-game.dir/flags.make
 CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o: ../Source\ Files/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o -c "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o -c "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Game.cpp"
 
 CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Game.cpp" > CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Game.cpp" > CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.i
 
 CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Game.cpp" -o CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Game.cpp" -o CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.s
 
 CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o: CMakeFiles/console-rpg-game.dir/flags.make
 CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o: ../Source\ Files/Character.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o -c "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Character.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o -c "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Character.cpp"
 
 CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Character.cpp" > CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Character.cpp" > CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.i
 
 CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Character.cpp" -o CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Character.cpp" -o CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.s
+
+CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o: CMakeFiles/console-rpg-game.dir/flags.make
+CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o: ../Source\ Files/Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o -c "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Item.cpp"
+
+CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Item.cpp" > CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.i
+
+CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Item.cpp" -o CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.s
 
 # Object files for target console-rpg-game
 console__rpg__game_OBJECTS = \
 "CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o" \
 "CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o" \
-"CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o"
+"CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o" \
+"CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o"
 
 # External object files for target console-rpg-game
 console__rpg__game_EXTERNAL_OBJECTS =
 
-console-rpg-game.exe: CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o
-console-rpg-game.exe: CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o
-console-rpg-game.exe: CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o
-console-rpg-game.exe: CMakeFiles/console-rpg-game.dir/build.make
-console-rpg-game.exe: CMakeFiles/console-rpg-game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable console-rpg-game.exe"
+console-rpg-game: CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o
+console-rpg-game: CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o
+console-rpg-game: CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o
+console-rpg-game: CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o
+console-rpg-game: CMakeFiles/console-rpg-game.dir/build.make
+console-rpg-game: CMakeFiles/console-rpg-game.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable console-rpg-game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/console-rpg-game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/console-rpg-game.dir/build: console-rpg-game.exe
+CMakeFiles/console-rpg-game.dir/build: console-rpg-game
 .PHONY : CMakeFiles/console-rpg-game.dir/build
 
 CMakeFiles/console-rpg-game.dir/clean:
@@ -131,6 +146,6 @@ CMakeFiles/console-rpg-game.dir/clean:
 .PHONY : CMakeFiles/console-rpg-game.dir/clean
 
 CMakeFiles/console-rpg-game.dir/depend:
-	cd /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug /cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles/console-rpg-game.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yersajyn/CLionProjects/console-rpg-game /Users/yersajyn/CLionProjects/console-rpg-game /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles/console-rpg-game.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/console-rpg-game.dir/depend
 

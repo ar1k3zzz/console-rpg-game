@@ -8,97 +8,103 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug"/>
+				<Option working_dir="/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug"/>
+				<Option working_dir="/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug"/>
+				<Option working_dir="/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="console-rpg-game">
-				<Option output="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/console-rpg-game.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug"/>
+				<Option output="/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/console-rpg-game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 console-rpg-game"/>
-					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 console-rpg-game"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="console-rpg-game/fast">
-				<Option output="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/console-rpg-game.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug"/>
+				<Option output="/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/console-rpg-game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 console-rpg-game/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 console-rpg-game/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Character.h">
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Character.h">
 			<Option target="console-rpg-game"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Header Files/Game.h">
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Game.h">
 			<Option target="console-rpg-game"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Character.cpp">
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Item.h">
 			<Option target="console-rpg-game"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Functions.h">
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Character.cpp">
 			<Option target="console-rpg-game"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/Game.cpp">
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Functions.h">
 			<Option target="console-rpg-game"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/Source Files/main.cpp">
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Game.cpp">
 			<Option target="console-rpg-game"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/console-rpg-game/CMakeLists.txt">
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Item.cpp">
+			<Option target="console-rpg-game"/>
+		</Unit>
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/main.cpp">
+			<Option target="console-rpg-game"/>
+		</Unit>
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
