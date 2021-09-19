@@ -4,11 +4,11 @@
 int main() {
     srand(time(NULL));
 
-    Game game;
-    game.initGame();
+    Game game;//create Class character
+    game.initGame();//initialize Character
 
-    while (game.getPlaying()){
-        game.mainMenu();
+    while (game.getPlaying()){//while our character is playing, game will not finish
+        game.mainMenu();//start with menu
     }
 
     return 0;

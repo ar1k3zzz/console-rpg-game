@@ -83,6 +83,12 @@
 		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Character.h">
 			<Option target="console-rpg-game"/>
 		</Unit>
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Enemy.h">
+			<Option target="console-rpg-game"/>
+		</Unit>
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Fight.h">
+			<Option target="console-rpg-game"/>
+		</Unit>
 		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Game.h">
 			<Option target="console-rpg-game"/>
 		</Unit>
@@ -90,6 +96,12 @@
 			<Option target="console-rpg-game"/>
 		</Unit>
 		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Character.cpp">
+			<Option target="console-rpg-game"/>
+		</Unit>
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Enemy.cpp">
+			<Option target="console-rpg-game"/>
+		</Unit>
+		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Fight.cpp">
 			<Option target="console-rpg-game"/>
 		</Unit>
 		<Unit filename="/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Functions.h">

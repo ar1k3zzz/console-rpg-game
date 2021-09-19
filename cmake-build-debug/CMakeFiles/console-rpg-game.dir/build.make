@@ -118,12 +118,40 @@ CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Item.cpp" -o CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.s
 
+CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.o: CMakeFiles/console-rpg-game.dir/flags.make
+CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.o: ../Source\ Files/Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.o -c "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Enemy.cpp"
+
+CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Enemy.cpp" > CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.i
+
+CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Enemy.cpp" -o CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.s
+
+CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.o: CMakeFiles/console-rpg-game.dir/flags.make
+CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.o: ../Source\ Files/Fight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.o -c "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Fight.cpp"
+
+CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Fight.cpp" > CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.i
+
+CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Fight.cpp" -o CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.s
+
 # Object files for target console-rpg-game
 console__rpg__game_OBJECTS = \
 "CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o" \
 "CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o" \
 "CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o" \
-"CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o"
+"CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o" \
+"CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.o" \
+"CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.o"
 
 # External object files for target console-rpg-game
 console__rpg__game_EXTERNAL_OBJECTS =
@@ -132,9 +160,11 @@ console-rpg-game: CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o
 console-rpg-game: CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o
 console-rpg-game: CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o
 console-rpg-game: CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o
+console-rpg-game: CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.o
+console-rpg-game: CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.o
 console-rpg-game: CMakeFiles/console-rpg-game.dir/build.make
 console-rpg-game: CMakeFiles/console-rpg-game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable console-rpg-game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable console-rpg-game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/console-rpg-game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

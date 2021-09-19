@@ -16,17 +16,7 @@ iomanip
 Item.h
 /Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Item.h
 
-/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Game.h
-../Source Files/Functions.h
-/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Functions.h
-Character.h
-/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Character.h
-ctime
--
-
 /Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Item.h
-string
--
 iostream
 -
 
@@ -35,20 +25,4 @@ iostream
 /Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Character.h
 cmath
 -
-
-/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Functions.h
-
-/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Game.cpp
-../Header Files/Game.h
-/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Game.h
-
-/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Item.cpp
-../Header Files/Item.h
-/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Item.h
-
-/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/main.cpp
-Functions.h
-/Users/yersajyn/CLionProjects/console-rpg-game/Source Files/Functions.h
-../Header Files/Game.h
-/Users/yersajyn/CLionProjects/console-rpg-game/Header Files/Game.h
 

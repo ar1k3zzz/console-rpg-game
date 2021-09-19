@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o"
+  "CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.o"
+  "CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.o"
   "CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o"
   "CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o"
   "CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o"

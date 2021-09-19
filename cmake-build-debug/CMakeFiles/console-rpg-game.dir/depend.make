@@ -5,8 +5,22 @@ CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.o: \
  ../Header\ Files/Character.h \
  ../Header\ Files/Item.h \
  ../Source\ Files/Character.cpp
+CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.o: \
+ ../Header\ Files/Enemy.h \
+ ../Header\ Files/Item.h \
+ ../Source\ Files/Enemy.cpp
+CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.o: \
+ ../Header\ Files/Character.h \
+ ../Header\ Files/Enemy.h \
+ ../Header\ Files/Fight.h \
+ ../Header\ Files/Game.h \
+ ../Header\ Files/Item.h \
+ ../Source\ Files/Fight.cpp \
+ ../Source\ Files/Functions.h
 CMakeFiles/console-rpg-game.dir/Source_Files/Game.cpp.o: \
  ../Header\ Files/Character.h \
+ ../Header\ Files/Enemy.h \
+ ../Header\ Files/Fight.h \
  ../Header\ Files/Game.h \
  ../Header\ Files/Item.h \
  ../Source\ Files/Functions.h \
@@ -16,6 +30,8 @@ CMakeFiles/console-rpg-game.dir/Source_Files/Item.cpp.o: \
  ../Source\ Files/Item.cpp
 CMakeFiles/console-rpg-game.dir/Source_Files/main.cpp.o: \
  ../Header\ Files/Character.h \
+ ../Header\ Files/Enemy.h \
+ ../Header\ Files/Fight.h \
  ../Header\ Files/Game.h \
  ../Header\ Files/Item.h \
  ../Source\ Files/Functions.h \

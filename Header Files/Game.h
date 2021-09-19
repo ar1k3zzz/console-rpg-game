@@ -3,6 +3,7 @@
 
 #include "../Source Files/Functions.h"
 #include "Character.h"
+#include "Fight.h"
 #include <ctime>
 
 using namespace std;
@@ -10,16 +11,11 @@ using namespace std;
 class Game {
 public:
     Game();
-    virtual ~Game();
-
-    //Operators
-
     //Functions
 
-    void initGame();
-    void mainMenu();
-    void travelMenu();
-    void endGame();
+    void initGame();//initilize the character
+    int mainMenu();//start menu
+    void travelMenu();//start play menu
 
     //Accessors
 
@@ -31,6 +27,8 @@ public:
 private:
     int choice;
     bool playing;
+    bool dead;
+    int indexPhrase;
     Character character;
 };
 

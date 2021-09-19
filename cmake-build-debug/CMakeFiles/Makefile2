@@ -81,12 +81,12 @@ clean: CMakeFiles/console-rpg-game.dir/clean
 CMakeFiles/console-rpg-game.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target console-rpg-game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target console-rpg-game"
 .PHONY : CMakeFiles/console-rpg-game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/console-rpg-game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/console-rpg-game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yersajyn/CLionProjects/console-rpg-game/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/console-rpg-game.dir/rule

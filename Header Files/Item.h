@@ -1,19 +1,19 @@
 #ifndef CONSOLE_RPG_GAME_ITEM_H
 #define CONSOLE_RPG_GAME_ITEM_H
 
-#include <string>
 #include <iostream>
 using namespace std;
 
 class Item {
 public:
-    Item();
-    void showAllItems() const;
+    Item();//Item constructor
+    void showAllItems() const;//shows Inventory
+    int getTotalAtk(int atk);//give total attack for character's attack
 private:
-    string itemArrName[3];
-    int itemArrAtk[3];
+    std::string itemArrName[3];//3 items name
+    int itemArrAtk[3];//3 items attack
     int atk;
-    string name;
+    std::string name;
 };
 
 

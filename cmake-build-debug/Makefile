@@ -153,6 +153,54 @@ Source_Files/Character.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Character.cpp.s
 .PHONY : Source_Files/Character.cpp.s
 
+Source_Files/Enemy.o: Source_Files/Enemy.cpp.o
+.PHONY : Source_Files/Enemy.o
+
+# target to build an object file
+Source_Files/Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.o
+.PHONY : Source_Files/Enemy.cpp.o
+
+Source_Files/Enemy.i: Source_Files/Enemy.cpp.i
+.PHONY : Source_Files/Enemy.i
+
+# target to preprocess a source file
+Source_Files/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.i
+.PHONY : Source_Files/Enemy.cpp.i
+
+Source_Files/Enemy.s: Source_Files/Enemy.cpp.s
+.PHONY : Source_Files/Enemy.s
+
+# target to generate assembly for a file
+Source_Files/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Enemy.cpp.s
+.PHONY : Source_Files/Enemy.cpp.s
+
+Source_Files/Fight.o: Source_Files/Fight.cpp.o
+.PHONY : Source_Files/Fight.o
+
+# target to build an object file
+Source_Files/Fight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.o
+.PHONY : Source_Files/Fight.cpp.o
+
+Source_Files/Fight.i: Source_Files/Fight.cpp.i
+.PHONY : Source_Files/Fight.i
+
+# target to preprocess a source file
+Source_Files/Fight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.i
+.PHONY : Source_Files/Fight.cpp.i
+
+Source_Files/Fight.s: Source_Files/Fight.cpp.s
+.PHONY : Source_Files/Fight.s
+
+# target to generate assembly for a file
+Source_Files/Fight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/console-rpg-game.dir/build.make CMakeFiles/console-rpg-game.dir/Source_Files/Fight.cpp.s
+.PHONY : Source_Files/Fight.cpp.s
+
 Source_Files/Game.o: Source_Files/Game.cpp.o
 .PHONY : Source_Files/Game.o
 
@@ -237,6 +285,12 @@ help:
 	@echo "... Source_Files/Character.o"
 	@echo "... Source_Files/Character.i"
 	@echo "... Source_Files/Character.s"
+	@echo "... Source_Files/Enemy.o"
+	@echo "... Source_Files/Enemy.i"
+	@echo "... Source_Files/Enemy.s"
+	@echo "... Source_Files/Fight.o"
+	@echo "... Source_Files/Fight.i"
+	@echo "... Source_Files/Fight.s"
 	@echo "... Source_Files/Game.o"
 	@echo "... Source_Files/Game.i"
 	@echo "... Source_Files/Game.s"

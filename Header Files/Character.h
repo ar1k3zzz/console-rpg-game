@@ -9,30 +9,23 @@
 class Character {
 public:
     Character();
-    virtual ~Character();
 
     //Functions
 
-    void initialize(const std::string name);
-    std::string getAsString() const;
-    void levelUp();
+    void initialize(const std::string name);//create a character
+    void getAsString();//initialise the stats
+    void levelUp();//level up
+    void gainExp(int exp);//gain exp
+    void sayPhrases(int index);//function for “Random thought”
 
-    //Accessors
-    const std::string &getName() const;
-
+    //Getter for important values of character
     int getLevel() const;
-
-    int getExp() const;
-
-    int getExpNext() const;
 
     int getHp() const;
 
-    int getHpMax() const;
-
     int getAtk() const;
 
-    //Modifiers
+    void setHp(int hp);
 
 private:
     std::string name;
